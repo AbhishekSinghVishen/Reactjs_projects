@@ -60,7 +60,7 @@ function App() {
               <div className="date"> {dateBuild(new Date())}</div>
             </div>
             <div className="weather-container">
-              <div className="temperature">
+              <div className="temperature ">
                 {Math.round(weather.main.temp)}°C
               </div>
               <div className="weather">{weather.weather[0].main}</div>
