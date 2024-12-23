@@ -65,7 +65,7 @@ function App() {
               </div>
               <div className="weather">{weather.weather[0].main}</div>
             </div>
-          </div>
+          </div>      
         ) : (
           ""
         )}
